@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Masterji</title>
+
+</head>
+
+<body class="bg-[#111111] ">
+
+  <div class="flex h-screen">
+    <section class="main-section w-62 border-r border-dashed border-[#555555] flex flex-col gap-4 items-between ">
+
+      <div class="p-6">
+        <img class="w-38 h-8" src="/src/image.png" alt="">
+      </div>
+      <div>
+        <div class="h-10 w-[80%] m-auto  hover:bg-[#222222] flex items-center gap-3  rounded-full bg-orange-400 ">
+          <i class="fa-regular fa-house px-2"></i>
+          <P> Dashboard</P>
+        </div>
+        <div class=" h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222]  flex items-center gap-4 rounded-full"><i
+            class=" fa-regular fa-star px-2"></i>
+          <P>Peer Reviews</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222] flex items-center gap-4 rounded-full"><i
+            class="fa-solid fa-table-cells-large px-2"></i>
+          <P>Projects</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222]  flex items-center gap-4 rounded-full"><i
+            class="fa-regular fa-pen-to-square px-2"></i>
+          <P>Blogs</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222]  flex items-center gap-4 rounded-full"><i
+            class="fa-solid fa-check-to-slot px-2"></i>
+          <P>Evalutions</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto hover:bg-[#222222] flex items-center gap-4 rounded-full"><i
+            class="fa-solid fa-code px-2"></i>
+          <P>Problems</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222]  flex items-center gap-4 rounded-full"> <i
+            class="fa-solid fa-comments px-2"></i>
+          <P>Town Halls</P>
+        </div>
+        <div class="h-10 mt-2 w-[80%] m-auto  hover:bg-[#222222] flex items-center gap-4 rounded-full"><i
+            class="fa-solid fa-address-card px-2"></i>
+          <P>Report Card</P>
+        </div>
+      </div>
+      <div
+        class="profile h-10 mt-45 w-[80%] mx-auto rounded-full flex items-center gap-4 border border-dashed border-[#555555]">
+        <i class="fa-regular fa-circle-user px-4 text-2xl"></i>
+        <P class="text-sm">Your Name</P>
+      </div>
+    </section>
+
+
+    <section class="body-section flex-1  overflow-y-auto  ">
+      <nav class="w-[93%]  mx-auto justify-between items-center flex my-8 ml-7">
+        <div>
+          <h1 class="text-2xl font-semibold text-white ">Dashboard</h1>
+          <p class="text-sm text-[#555555] leading-loose">Overview of your progress and upcoming deadlines.</p>
+        </div>
+        <div><button class="w-26 h-8 bg-[#222222] rounded-full text-xs hover:bg-[#333333]">Notice Board</button></div>
+      </nav>
+
+      <!-- cards -->
+      <div class="cards flex">
+
+        <!-- card1 -->
+        <div class="card flex ml-8 justify-between px-6 h-[175px] w-[285px] bg-[#222222] rounded-2xl">
+
+          <div class="flex flex-col gap-4">
+
+            <h1 class="text-xl pt-6">Peer Reviews</h1>
+            <p class="text-4xl">4</p>
+            <div class="text-xs">
+              <p>Total</p>
+              <p>Pending</p>
+            </div>
+
+          </div>
+          <div>
+            <i class="fa-regular fa-star py-8"></i>
+          </div>
+        </div>
+
+        <!-- card1 -->
+        <div class="card flex ml-8 justify-between px-6
+         h-[175px] w-[285px] bg-[#222222] rounded-2xl">
+
+          <div class="flex flex-col gap-4">
+
+            <h1 class="text-xl pt-6">Projects</h1>
+            <p class="text-4xl">0</p>
+            <div class="text-xs">
+              <p>Total</p>
+              <p>Pending</p>
+            </div>
+
+          </div>
+          <div>
+            <i class="fa-solid fa-border-all py-8"></i>
+          </div>
+        </div>
+
+        <!-- card1 -->
+        <div class="card flex ml-8 justify-between px-6
+         h-[175px] w-[285px] bg-[#222222] rounded-2xl">
+
+          <div class="flex flex-col gap-4">
+
+            <h1 class="text-xl pt-6">Blogs</h1>
+            <p class="text-4xl">13</p>
+            <div class="text-xs">
+              <p>Total</p>
+              <p>Pending</p>
+            </div>
+
+          </div>
+          <div>
+            <i class="fa-solid fa-pencil py-8"></i>
+          </div>
+        </div>
+
+        <!-- card1 -->
+        <div class="card flex ml-8 justify-between px-6
+         h-[175px] w-[285px] bg-[#222222] rounded-2xl">
+
+          <div class="flex flex-col gap-4">
+
+            <h1 class="text-xl pt-6">Courses</h1>
+            <p class="text-4xl">2</p>
+            <div class="text-xs">
+              <p>Total </p>
+              <p>Pending</p>
+            </div>
+
+          </div>
+          <div>
+            <i class="fa-solid fa-layer-group py-8"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="flex gap-4 m-9">
+
+        <div class="h-8 w-36 bg-[#0E3B22] rounded-full text-xs  pl-6 p-2 text-[#22C55E]">
+          <p>300 Marks Earned</p>
+        </div>
+        <div class="h-8 w-36 bg-[#0A2540] rounded-full text-xs  pl-6 p-2 text-blue-400">
+          <p>3 Peer Evaluations</p>
+        </div>
+        <div class=" h-8 w-36 bg-[#3A0D1F] rounded-full text-xs pl-6 p-2 text-[#F43F5E]">
+          <p>0 Penalty Marks</p>
+        </div>
+        <div class=" h-8 w-42 bg-[#2A183D] rounded-full text-xs pl-6 p-2 text-[#A855F7]">
+          <p>3/5 Code Quality Rating</p>
+        </div>
+        <div class=" h-8 w-38 bg-[#3A2A0A] rounded-full text-xs pl-6 p-2 text-[#F59E0B]">
+          <p>3/5 Writing Rating</p>
+        </div>
+        <div class=" h-8 w-40 bg-[#1C1C1C] rounded-full text-xs pl-6 p-2 text-[#E5E7EB]">
+          <p>2/5 Evaluation Rating</p>
+        </div>
+
+      </div>
+
+      <h3 class="text-2xl  font-semibold m-10">Upcoming Deadlines</h3>
+
+      <!-- Assignment1 -->
+      <div class="w-[93%] bg-[#222222] h-[200px] rounded-2xl m-10 mb-2 flex items-center hover:bg-[#444444]">
+
+        <div class="m-10 mr-[330px] flex flex-col gap-3">
+          <h1 class="text-xl text-white"> HTML Resume Page Assignment</h1>
+          <h3 class="text-[#A1A1A1] semibold">Web Dev Cohort 2026</h3>
+          <div>
+            <p class="text-[#A1A1A1] semibold">Start: Jan 27, 2026, 1:30 PM</p>
+            <p>Due:<span class="text-red-400 px-2">Feb 15, 2026, 11:30 PM</span> </p>
+          </div>
+
+
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <h3><i class="fa-solid fa-tag pr-3"></i>Web Development</h3>
+          <div>
+            <P>Eval Begins: <span class="text-green-500 bold-2xl">15, 2026, 11:30 PM</span> </P>
+            <p class="text-[#A1A1A1]"><span class="text-white">Eval Ends:</span> Feb 15, 2026, 11:59 PM</p>
+          </div>
+
+
+        </div>
+
+      </div>
+      <!-- Assignment1 -->
+      <div class="w-[93%] bg-[#222222] h-[200px] rounded-2xl m-10 flex items-center hover:bg-[#444444]">
+
+        <div class="m-10 mr-[330px] flex flex-col gap-3">
+          <h1 class="text-xl text-white"> HTML Resume Page Assignment</h1>
+          <h3 class="text-[#A1A1A1] semibold">Web Dev Cohort 2026</h3>
+          <div>
+            <p class="text-[#A1A1A1] semibold">Start: Jan 27, 2026, 1:30 PM</p>
+            <p>Due:<span class="text-red-400 px-2">Feb 15, 2026, 11:30 PM</span> </p>
+          </div>
+
+
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <h3><i class="fa-solid fa-tag pr-3"></i>Web Development</h3>
+          <div>
+            <P>Eval Begins: <span class="text-green-500 bold-2xl">15, 2026, 11:30 PM</span> </P>
+            <p class="text-[#A1A1A1]"><span class="text-white">Eval Ends:</span> Feb 15, 2026, 11:59 PM</p>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <!-- Assignment1 -->
+      <div class="w-[93%] bg-[#222222] h-[200px] rounded-2xl m-10 flex items-center hover:bg-[#444444]">
+
+        <div class="m-10 mr-[330px] flex flex-col gap-3">
+          <h1 class="text-xl text-white"> HTML Resume Page Assignment</h1>
+          <h3 class="text-[#A1A1A1] semibold">Web Dev Cohort 2026</h3>
+          <div>
+            <p class="text-[#A1A1A1] semibold">Start: Jan 27, 2026, 1:30 PM</p>
+            <p>Due:<span class="text-red-400 px-2">Feb 15, 2026, 11:30 PM</span> </p>
+          </div>
+
+
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <h3><i class="fa-solid fa-tag pr-3"></i>Web Development</h3>
+          <div>
+            <P>Eval Begins: <span class="text-green-500 bold-2xl">15, 2026, 11:30 PM</span> </P>
+            <p class="text-[#A1A1A1]"><span class="text-white">Eval Ends:</span> Feb 15, 2026, 11:59 PM</p>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

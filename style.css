@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  color: var(--primary-color);
+}
+
+:root {
+  --primary-color: rgba(255, 255, 255, 0.842);
+}
+
+.main-section div div i {
+  padding-left: 12px;
+  color: rgba(255, 255, 255, 0.842);
+}
+.main-section div div p {
+  padding-left: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+
+  background-color: #333333;
+}
+
+.body-section {
+ scrollbar-width: none;
+
+}
